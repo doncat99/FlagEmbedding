@@ -23,7 +23,8 @@ setup(
         'ir-datasets',
         'sentencepiece',
         'protobuf',
-        'air_benchmark'
+        'air_benchmark',
+        'faiss',
     ],
     extras_require={
         'finetune': ['deepspeed', 'flash-attn'],
