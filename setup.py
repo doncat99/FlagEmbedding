@@ -15,14 +15,15 @@ setup(
     include_package_data=True,
     install_requires=[
         'torch>=1.6.0',
-        'transformers==4.44.2',
+        'transformers==4.48.0',
         'datasets==2.19.0',
         'accelerate>=0.20.1',
         'sentence_transformers',
         'peft',
         'ir-datasets',
         'sentencepiece',
-        'protobuf'
+        'protobuf',
+        'air_benchmark'
     ],
     extras_require={
         'finetune': ['deepspeed', 'flash-attn'],
